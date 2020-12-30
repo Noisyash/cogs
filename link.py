@@ -1,7 +1,7 @@
 from redbot.core import commands
 
 class link(commands.Cog):
-    """My custom cog"""
+    """steamid and discordid linker"""
 
     @commands.command()
     async def link(self, ctx, arg):

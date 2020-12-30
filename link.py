@@ -4,7 +4,7 @@ class link(commands.Cog):
     """My custom cog"""
 
     @commands.command()
-    async def say(self, ctx, arg):
+    async def link(self, ctx, arg):
         name = ctx.message.author.id
         with open('userlist.yaml','a') as yaml_file:
             yaml_file.write(str(name) + "." + arg + '\n')
